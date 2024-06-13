@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.Oracle-logo {
+  height: 60px;
+  margin-top: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-form h2 {
+  margin-bottom: 20px;
+}
+
+.App-form label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.App-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.App-form button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.App-form button:hover {
+  background-color: #21a1f1;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  text-align: center;
+}
