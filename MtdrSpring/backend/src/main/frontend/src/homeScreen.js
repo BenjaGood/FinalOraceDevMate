@@ -110,7 +110,7 @@ function HomeScreen({ username }) {
         <img src={OracleLogo} alt="Oracle Logo" className="banner-logo" />
       </div>
       <h1 className="welcome-text">
-        Bienvenido a la página de inicio para USUARIO <span role="img" aria-label="user">👤</span>
+        Bienvenido a la página de inicio para USUARIOS <span role="img" aria-label="user">👤</span>
       </h1>
       <p className="welcome-subtext">¡Has iniciado sesión correctamente, {username}!</p>
       <div className="toggle-container">
